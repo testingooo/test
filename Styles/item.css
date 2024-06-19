@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 .player-details {
   margin-top: -8px;
   width: 100%;
