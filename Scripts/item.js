@@ -32,13 +32,13 @@ document.querySelector('.products')
           <img src="Images/IMG-20240523-WA0031.jpg" alt="">
         </div> -->
         <div class="product-bottom">
+          <a href="buy-now.html">
+            <button data-id="${elem.id}">Buy now</button>
+          </a>
           <div class="product-details">
             <h4>Product Details</h4>
             <i class="fa fa-angle-down" aria-hidden="true"></i>
           </div>
-          <a href="buy-now.html">
-            <button data-id="${elem.id}">Buy now</button>
-          </a>
         </div>
       </div>
     `
